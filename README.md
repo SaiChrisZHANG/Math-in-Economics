@@ -1,2 +1,3 @@
 # Math-in-Economics
-Organizing math techniques required for economic researchers
+### Author: Sai Zhang
+This project tries to organize math knowledge required for economic researchers, with content ranging from basic conceptions and definitions to advanced theorems and techniques.
