@@ -1,0 +1,148 @@
+\documentclass[12pt,openany]{report}
+\setlength{\headheight}{52pt}
+\usepackage[a4paper,left=1in,right=1in,top=1in,bottom=1in, heightrounded, marginparwidth=2cm, marginparsep=3mm]{geometry}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\setlength{\parskip}{0.5em}
+\usepackage{url}
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+\usepackage{palatino}
+\usepackage{tocloft}
+\usepackage[nottoc]{tocbibind}
+\usepackage{marginnote}
+\usepackage{multirow}
+\usepackage[authoryear,round]{natbib}
+\usepackage{amssymb,amsmath,amsthm,amsfonts}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\graphicspath{{./chapter1/outputs/}}
+\usepackage{hyperref}
+\usepackage{newpxtext,newpxmath}
+\usepackage{fancyhdr}
+\usepackage[Conny]{fncychap}
+    \ChNameVar{\centering\huge\fontfamily{ppl}\selectfont\rm\bfseries}
+    \ChNumVar{\huge\fontfamily{ppl}\selectfont}
+    \ChTitleVar{\centering\LARGE\fontfamily{ppl}\selectfont\rm}
+
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks,
+    citecolor=red,
+    filecolor=black,
+    linkcolor=violet,
+    urlcolor=blue
+}
+\newtheorem{theorem}{Theorem}
+\renewcommand\cftchapafterpnum{\vskip5pt}
+\renewcommand\cftsecafterpnum{\vskip0pt}
+
+\fancypagestyle{mystyle}{%
+  \fancyhf{}% Clear header/footer
+  \renewcommand{\headrulewidth}{1pt}% Remove header rule
+  \renewcommand{\footrulewidth}{1pt}% Remove footer rule
+  \fancyhead[R]{\href{https://github.com/SaiChrisZHANG/empirical-finance-literature}{Github Page}}
+  \fancyhead[L]{Empirical Finance: A Review}
+  \fancyfoot[L]{\hyperref[ToC-first-page]{To Contents}}
+  \fancyfoot[C]{\small \leftmark}
+  \fancyfoot[R]{\thepage}
+}
+
+\usepackage{minitoc}
+\newcommand{\sidenotes}[1]{\marginnote{\raggedright\scriptsize#1}}
+
+\usepackage{paralist}
+  \let\itemize\compactitem
+  \let\enditemize\endcompactitem
+  \let\enumerate\compactenum
+  \let\endenumerate\endcompactenum
+  \let\description\compactdesc
+  \let\enddescription\endcompactdesc
+  \pltopsep=1pt
+  \plitemsep=1pt
+  \plparsep=1pt
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\vspace{1pt}}
+\AtEndEnvironment{quote}{\vspace{1pt}}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+        
+        \Huge
+        \textbf{Math: From An Economic PhD Student Perspective}
+
+        \Large
+        \textit{For Personal Reference, happy to circulate}
+            
+        \vspace{2.5cm}
+        
+        \LARGE    
+        \textbf{Sai Zhang}
+            
+        \vfill
+        
+        \large    
+        Inspired by the Course \textbf{\textit{Empirical Finance}} at\\
+        London Business School by \href{https://sabryzgalova.com/research/}{\textit{Dr. Svetlana Bryzgalova}}
+            
+        \vspace{0.8cm}
+        \large
+        \today
+            
+    \end{center}
+\end{titlepage}
+
+%%%%%%%% Main content %%%%%%%%%%
+%%%%%%%% Chapters are called separately %%%%%%%%%%
+
+\chapter*{Here we go!}
+
+Math, we . Although it is not my speciality, I am always interested
+in this literature. During my pre-doc research fellowship at London
+Business School, I have had the previlege to study in the course
+\textit{\textbf{Financial Economics II: Empirical Finance}}. The course
+instructor Dr. Svetlana Bryzgalova is absolutely one of the most brilliant
+scholars I have encountered. Thanks to her, I have got to understand 
+this liturature more systematically. In this (personal) review, I summarize
+the most influential and inspirational works in this field and organize
+them by different topics. The structure of this review resembles the structure
+of Dr. Bryzgalova's course, while adjusted according to my personal research
+interest. I intend to review classic works and discuss some potential directions
+of future study regarding my personal interest in Behavioral Economics, Game Theory
+and Network.
+
+Since this review is tailored according to my own research interest and
+experience, I will not only summarize the theoretical perspectives of the
+studies, present their findings and discuss how they fit into the literature,
+but document my replication attempts and pseudo codes as well. All the codes related
+to this review can be found on \href{https://github.com/SaiChrisZHANG}{my Github page}.
+
+I thank Dr. Svetlana Bryzgalova for her valuable intuitions and impressive
+knowledge of the empirical finance literature. Building this review is truly
+a memorable journey for me. I would love to share this review and all the related
+materials to anyone that finds them useful. And unavoidably, I would make some
+typos and other minor mistakes (hopefully not big ones). So I'd really appreciate
+any correction. If you find any mistakes, please either set up a branch on Github
+or send the mistakes to this email address 
+\href{mailto:saizhang.econ@gmail.com}{saizhang.econ@gmail.com}, BIG thanks in advance!
+
+\newpage
+
+\dominitoc
+\phantomsection% Place hyperlink marker
+\label{ToC-first-page}
+\tableofcontents
+
+\pagestyle{mystyle}
+
+
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{reference.bib}
+
+\end{document}
