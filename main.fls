@@ -415,8 +415,6 @@ INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Italic-tlf-t1.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-BoldItalic-tlf-t1.tfm
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.toc
 OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc1
 OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc2
@@ -535,6 +533,5 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb
