@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -9,5 +9,19 @@
 Michael Carter.
 \newblock \emph{Foundations of mathematical economics}.
 \newblock MIT press, 2001.
+
+\bibitem[Eichhorn and Glei{\ss}ner(2016)]{eichhornmathematics}
+Wolfgang Eichhorn and Winfried Glei{\ss}ner.
+\newblock \emph{Mathematics and Methodology for Economics}.
+\newblock Springer, May 2016.
+\newblock \doi{10.1007/978-3-319-23353-6}.
+\newblock URL
+  \url{https://ideas.repec.org/b/spr/sptbec/978-3-319-23353-6.html}.
+
+\bibitem[Hoy et~al.(2011)Hoy, Livernois, McKenna, Rees, and
+  Stengos]{hoy2011mathematics}
+Michael Hoy, John Livernois, Chris McKenna, Ray Rees, and Thanasis Stengos.
+\newblock \emph{Mathematics for economics}.
+\newblock MIT press, 2011.
 
 \end{thebibliography}
