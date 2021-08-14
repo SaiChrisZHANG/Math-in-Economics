@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  14 AUG 2021 01:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  14 AUG 2021 01:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -872,48 +872,48 @@ LaTeX Font Info:    Try loading font information for T1+ppl on input line 102.
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 119.
-LaTeX Font Info:    Try loading font information for OT1+zpltlf on input line 129.
+(Font)              scaled to size 12.0pt on input line 114.
+LaTeX Font Info:    Try loading font information for OT1+zpltlf on input line 128.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
 File: ot1zpltlf.fd 2015/01/17 v1.0 font definition file for OT1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 129.
+(Font)              scaled to size 12.0pt on input line 128.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 129.
+(Font)              scaled to size 8.8pt on input line 128.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 129.
-LaTeX Font Info:    Try loading font information for U+msa on input line 129.
+(Font)              scaled to size 6.6pt on input line 128.
+LaTeX Font Info:    Try loading font information for U+msa on input line 128.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 129.
+LaTeX Font Info:    Try loading font information for U+msb on input line 128.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+npxmia on input line 129.
+LaTeX Font Info:    Try loading font information for U+npxmia on input line 128.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
-LaTeX Font Info:    Try loading font information for U+npxsym on input line 129.
+LaTeX Font Info:    Try loading font information for U+npxsym on input line 128.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Try loading font information for U+npxsyc on input line 129.
+LaTeX Font Info:    Try loading font information for U+npxsyc on input line 128.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 129.
+(Font)              scaled to size 8.8pt on input line 128.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.137 \newpage
+l.135 \newpage
                [1
 
 ]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 140.
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 138.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mtc1.
 \openout3 = `main.mtc1'.
@@ -946,9 +946,9 @@ LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
  [2]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 145.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 143.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 145.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 143.
 (/Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/chapter1/chapter1.tex
 \openout3 = `main.mtc'.
 
@@ -1009,17 +1009,17 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
 [7
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
  (/Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C314EB17A7D9F031612A5E4815400BF1;350.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
  13387 strings out of 492649
@@ -1030,10 +1030,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  30i,9n,43p,1032b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.pdf (8 pages, 101241 bytes).
+Output written on /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.pdf (8 pages, 101233 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 131 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  21 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
