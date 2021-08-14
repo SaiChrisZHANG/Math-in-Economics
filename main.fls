@@ -420,6 +420,7 @@ OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc1
 OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc2
 OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc3
 OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc4
+OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc5
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.toc
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.toc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-t1.tfm
@@ -519,6 +520,9 @@ INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/chapter1/chapter1_s
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/chapter1/chapter1_sec2.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.bbl
+INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.bbl
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Italic-tlf-t1.tfm
 OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.maf
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc0
