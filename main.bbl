@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -28,6 +28,11 @@ Wolfgang Eichhorn and Winfried Glei{\ss}ner.
 Michael Hoy, John Livernois, Chris McKenna, Ray Rees, and Thanasis Stengos.
 \newblock \emph{Mathematics for economics}.
 \newblock MIT press, 2011.
+
+\bibitem[Intriligator(2002)]{intriligator2002mathematical}
+Michael~D Intriligator.
+\newblock \emph{Mathematical optimization and economic theory}.
+\newblock SIAM, 2002.
 
 \bibitem[Vali(2014)]{vali2014principles}
 Shapoor Vali.
