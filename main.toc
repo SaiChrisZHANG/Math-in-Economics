@@ -1,8 +1,8 @@
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Linear Algebra}{4}{chapter.1}
-\contentsline {section}{\numberline {1.1}Chap1Sec1}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Chap1Sec2}{4}{section.1.2}
-\contentsline {chapter}{\numberline {2}Real Analysis}{5}{chapter.2}
-\contentsline {chapter}{\numberline {3}Optimization}{6}{chapter.3}
-\contentsline {chapter}{\numberline {4}Dynamic Method}{7}{chapter.4}
-\contentsline {chapter}{Bibliography}{8}{chapter.4}
+\contentsline {chapter}{\numberline {1}Linear Algebra}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Chap1Sec1}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Chap1Sec2}{3}{section.1.2}
+\contentsline {chapter}{\numberline {2}Real Analysis}{4}{chapter.2}
+\contentsline {chapter}{\numberline {3}Optimization}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}Dynamic Method}{6}{chapter.4}
+\contentsline {chapter}{Bibliography}{7}{chapter.4}
