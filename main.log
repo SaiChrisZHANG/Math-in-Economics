@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  14 AUG 2021 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  14 AUG 2021 23:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -934,6 +934,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc5.
 \openout3 = `main.mtc5'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc6.
+\openout3 = `main.mtc6'.
+
  (/Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.toc
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <12> not available
 (Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 2.
@@ -990,6 +994,10 @@ Chapter 3.
 Chapter 4.
 [6
 
+]
+Chapter 5.
+[7
+
 ] (/Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.bbl
 LaTeX Font Info:    Try loading font information for T1+npxtt on input line 24.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/t1npxtt.fd
@@ -1009,31 +1017,31 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
-[7
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
+[8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
  (/Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C314EB17A7D9F031612A5E4815400BF1;350.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
+(rerunfilecheck)             Checksum: 16829D1AC595DDC2EEC76ACD6977E5D0;399.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 13387 strings out of 492649
- 191170 string characters out of 6129623
+ 13393 strings out of 492649
+ 191211 string characters out of 6129623
  330775 words of memory out of 5000000
- 16780 multiletter control sequences out of 15000+600000
+ 16781 multiletter control sequences out of 15000+600000
  78576 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,9n,43p,1032b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.pdf (8 pages, 101233 bytes).
+Output written on /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.pdf (9 pages, 102175 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

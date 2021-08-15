@@ -465,6 +465,7 @@ OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc2
 OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc3
 OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc4
 OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc5
+OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc6
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.toc
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.toc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-t1.tfm
@@ -530,6 +531,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
 OUTPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.maf
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc0
+INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc5
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc4
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc3
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.mtc2
