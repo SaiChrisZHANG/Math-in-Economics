@@ -34,7 +34,26 @@
     linkcolor=violet,
     urlcolor=blue
 }
+
+\makeatletter
+\newtheoremstyle{indented}
+  {2pt}% space before
+  {2pt}% space after
+  {\addtolength{\@totalleftmargin}{2em}
+   \addtolength{\linewidth}{-2em}
+   \parshape 1 2em \linewidth}% body font
+  {}% indent
+  {\bfseries}% header font
+  {.}% punctuation
+  {.5em}% after theorem header
+  {}% header specification (empty for default)
+\makeatother
+\theoremstyle{indented}
+\newtheorem{definition}{Definition}
 \newtheorem{theorem}{Theorem}
+\numberwithin{definition}{chapter}
+\numberwithin{theorem}{chapter}
+
 \renewcommand\cftchapafterpnum{\vskip5pt}
 \renewcommand\cftsecafterpnum{\vskip0pt}
 
