@@ -34,6 +34,14 @@ With Definition \ref{def_subset} in mind, we have:
 \begin{enumerate}
     \item[-] $(X\cap Y)^C = X^C\cup Y^C$, $(X\cup Y)^C = X^C\cap Y^C$, $X-Y = X\cap Y^C$, $X\subseteq Y \rightarrow Y^C \subseteq X^C$
     \item[-] $X\subseteq Y \rightarrow X\cup(Y-X)=Y$, $X-Y \subseteq X\cup Y$, $X\cap Y =\varnothing\rightarrow Y\cap X^C=Y$
-    \item[-] $X-Y = X-(X\cap Y)=(X\cup Y)-Y$, $(X-Y)-Z=X-(Y\cup Z)$, $X-(Y-Z) = (X-Y)\cup(X\cap Z)$, $(X\cup Y)-Z = (X-Z)\cup(Y-Z)$, $X-(Y\cup Z)=(X-Y)\cap(X-Z)$.
+    \item[-] $X-Y = X-(X\cap Y)=(X\cup Y)-Y$, $(X-Y)-Z=X-(Y\cup Z)$, $X-(Y-Z) = (X-Y)\cup(X\cap Z)$, $(X\cup Y)-Z = (X-Z)\cup(Y-Z)$, $X-(Y\cup Z)=(X-Y)\cap(X-Z)$
 \end{enumerate}
- , 
+
+Definition \ref{def_subset} can be extended to collections of sets.
+\begin{definition}
+    For a collection of sets $\mathcal{S}$:
+    \begin{enumerate}
+        \item[-] Union: $\bigcup_{S\in\mathcal{S}}S=\{x:x\in S \text{ for some } S\in \mathcal{S}\}$
+        \item[-] Intersection: $\bigcup_{S\in\mathcal{S}}S=\{x:x\in S \text{ for every } S\in \mathcal{S}\}$
+    \end{enumerate}
+    \end{definition} 
