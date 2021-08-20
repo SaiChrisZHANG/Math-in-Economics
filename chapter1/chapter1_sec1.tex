@@ -59,7 +59,9 @@ Another two definitions focus on two important collections of subsets:
     \begin{enumerate}
         \item[-] Partition: a collection of \textbf{disjoint} subsets of $U$, of which the union is $U$, 
         i.e., for $U$, if the collection of its $n$ subsets $\{X_i\},i=1,\cdots,n$ is a partition of $U$, 
-        $\{X_i\}$ must satisfy: $X_i\cap X_j=\varnothing, \forall i,j=1,\cdots,n$ and $X_1\cup X_2\cup \cdots\cup X_n=U$
+        $\{X_i\}$ must satisfy: $X_i\cap X_j=\varnothing, \forall i,j=1,\cdots,n,i\neq j$ and $\bigcup^n_{i=1} X_i=U$. On element level,
+        each element of $U$ lies in one and ONLY one subset of the partition.
+        \item[-] Power set: the power set $\mathcal{P}(X)$ of a set $X$ is the set of ALL its subsets, i.e., $\mathcal{P}(X)\{A:A\subseteq X \}$ 
     \end{enumerate}
 \end{definition}
 

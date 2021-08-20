@@ -534,8 +534,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newpx/zplsy.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/pxsys.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-t1.tfm
-INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/chapter1/chapter1_sec2.tex
-INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/chapter1/chapter1_sec2.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newpx/zplmi.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/pxmi.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/pxfonts/pxmi.vf
@@ -563,6 +561,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newpx/zplmia.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/pxmia.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zplr-x.tfm
+INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/chapter1/chapter1_sec2.tex
+INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/chapter1/chapter1_sec2.tex
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.bbl
 INPUT /Users/admin/Dropbox/MyFancyProjects/Math-in-Economics/main.bbl
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newpx/t1npxtt.fd
