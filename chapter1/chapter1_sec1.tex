@@ -46,7 +46,13 @@ For a collection of sets $\mathcal{S}$:
 \end{enumerate}
 \end{definition}
 
-Apart from union, intersection, complement and relative difference (subtract), we can also take the \textbf{product} of two set:
-\begin{definition}
-    The \textbf{product} of two sets $X$ and $Y$ is the set of \textbf{ordered} pairs $X\times Y = \{(x,y):x\in X, y\in Y\}$
+Apart from union, intersection, complement and relative difference (subtract), we can also take the \textbf{product} of two sets:
+\begin{definition}\label{def_cartesian_product}
+    The \textbf{Cartesian product} of two sets $X$ and $Y$ is the set of \textbf{ordered} pairs $X\times Y = \{(x,y):x\in X, y\in Y\}$
 \end{definition}
+Notice that \textbf{order} is important, meaning that $(x,y)$ is different from $(y,x)$. Equally, we can generalize this definition as 
+$\prod^n_{k=1}S_k=\{(s_1,\cdots,s_n)|s_1\in S_1,\cdots,s_n\in S_n\}$. If we want to denote the product of all BUT the $i$th set, we can use:
+$X_{-i}=X_1\times \cdots \times X_{i-1}\times X_{i+1}\times\cdots\times X_n$.
+
+
+The last two 
