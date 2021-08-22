@@ -67,7 +67,7 @@ Another two definitions focus on two important collections of subsets:
 \end{definition}
 
 \subsection{Relations and Order}
-For two sets $X$ and $Y$, any subset $R$ of their product $X\times Y$ is called a \textit{binary relation}, any pair of elements $(x,y)\in R\subseteq X\times Y$ can be described as $x$ is \textbf{related} to $y$, denoted as $x\mathbf{R}y$. A relation is a subset of the product, expressing the relationship between elements.
+For two sets $X$ and $Y$, any subset $R$ of their product $X\times Y$ is called a \textit{binary relation}, any pair of elements $(x,y)\in R\subseteq X\times Y$ can be described as $x$ is \textbf{related} to $y$, denoted as $x\mathcal{R}y$. A relation is a subset of the product, expressing the relationship between elements.
 
 Two basic concepts of a relation $R\subseteq X\times Y$ are \textbf{domain} and \textbf{range}:
 \begin{definition}
@@ -77,4 +77,16 @@ Two basic concepts of a relation $R\subseteq X\times Y$ are \textbf{domain} and 
     \end{enumerate}
 \end{definition}
 
-The 
+Any binary relation $R\subseteq X\times Y$ can be characterized by the following properties:
+\begin{definition}
+    \begin{enumerate}
+        \item[inversible] if $\exists R^{-1}=\{(y,x)\in Y\times X:(x,y)\in R\}$
+        \item[reflexive] if $x\mathcal{R}x$
+        \item[transitive] if $x\mathcal{R}y$ and $y\mathcal{R}z \Rightarrow x\mathcal{R}z$
+        \item[symmetric] if $x\mathcal{R}y\Rightarrow y\mathcal{R}x$
+        \item[antisymmetric] if $x\mathcal{R}y$ and $y\mathcal{R}x \Rightarrow x=y$
+        \item[asymmetric] if $x\mathcal{R}y \nRightarrow y\mathcal{R}x$
+        \item[complete] if $x$ and $y$ always have $x\mathcal{R}y$ or $y\mathcal{R}x$ or both    
+    \end{enumerate}
+\end{definition}
+
