@@ -79,14 +79,31 @@ Two basic concepts of a relation $R\subseteq X\times Y$ are \textbf{domain} and 
 
 Any binary relation $R\subseteq X\times Y$ can be characterized by the following properties:
 \begin{definition}
+    The relation $R$ is:
     \begin{enumerate}
-        \item[inversible] if $\exists R^{-1}=\{(y,x)\in Y\times X:(x,y)\in R\}$
-        \item[reflexive] if $x\mathcal{R}x$
-        \item[transitive] if $x\mathcal{R}y$ and $y\mathcal{R}z \Rightarrow x\mathcal{R}z$
-        \item[symmetric] if $x\mathcal{R}y\Rightarrow y\mathcal{R}x$
-        \item[antisymmetric] if $x\mathcal{R}y$ and $y\mathcal{R}x \Rightarrow x=y$
-        \item[asymmetric] if $x\mathcal{R}y \nRightarrow y\mathcal{R}x$
-        \item[complete] if $x$ and $y$ always have $x\mathcal{R}y$ or $y\mathcal{R}x$ or both    
+        \item[\textbf{inversible}] if $\exists R^{-1}=\{(y,x)\in Y\times X:(x,y)\in R\}$
+        \item[\textbf{reflexive}] if $x\mathcal{R}x$
+        \item[\textbf{transitive}] if $x\mathcal{R}y$ and $y\mathcal{R}z \Rightarrow x\mathcal{R}z$
+        \item[\textbf{symmetric}] if $x\mathcal{R}y\Rightarrow y\mathcal{R}x$
+        \item[\textbf{antisymmetric}] if $x\mathcal{R}y$ and $y\mathcal{R}x \Rightarrow x=y$
+        \item[\textbf{asymmetric}] if $x\mathcal{R}y \nRightarrow y\mathcal{R}x$
+        \item[\textbf{complete}] if $x$ and $y$ always have $x\mathcal{R}y$ or $y\mathcal{R}x$ or both    
     \end{enumerate}
 \end{definition}
 
+Inversible is a universal property for all relations. Meanwhile, other properties can be used to categorize relations:
+\begin{enumerate}
+    \item[Step1] If a relation $R$ is \textbf{reflexive} and \textbf{transitive}, it is a \textbf{\textit{Preorder}} or \textbf{\textit{Quasi-order}}
+    \item[Step2] If a relation $R$ is a \textbf{\textit{Preorder}} and:
+    \begin{enumerate}
+        \item[-] \textbf{symmetric}, it is an \textbf{\textit{Equivalence Relation}}
+        \item[-] NOT \textbf{symmetric}, it is an \textbf{\textit{Order Relation}}  
+    \end{enumerate}
+    \item[Step3] If a relation $R$ is an \textbf{\textit{Order Relation}} and:
+    \begin{enumerate}
+        \item[-] \textbf{complete}, it is a \textbf{\textit{Weak Order}}
+        \item[-] \textbf{antisymmetric}, it is a \textbf{\textit{Partial Order}}
+        \item[-] both \textbf{complete} and \textbf{antisymmetric}, it is a \textbf{\textit{Total Order (Chain)}} 
+        \item[-] both \textbf{antisymmetric} and bounded, it is a \textbf{\textit{Lattice}} 
+    \end{enumerate} 
+\end{enumerate}
