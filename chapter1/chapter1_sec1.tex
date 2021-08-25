@@ -114,7 +114,7 @@ Next, we study some special properties of the relations listed above.
 
 \subsubsection*{Equivalence relation}
 The most important property of equivalence ralations is related to the partitions of sets (see Def. \ref{def_collect_subset}):
-\begin{theorem}
+\begin{theorem}\label{theorem_equvalence}
     If $R$ is an equivalence relation on any non-empty set $A$, then the distinct set of equivalence classes of $R$ forms a partition of $A$.
     Conversely, if a relation induced by partition $\mathcal{P}=\{A_i\}$ is defined as:
     $$
@@ -123,4 +123,7 @@ The most important property of equivalence ralations is related to the partition
     this relation $\mathcal{R}^{\mathcal{P}}$ is an equivalence relation.
 \end{theorem}
 
-What does this mean? Here is an example: for the partition $\left\{\{a,b\},\{c\},\{d\}\right\}$
+What does this mean? Here is an example: for the partition $\left\{\{a,b\},\{c\},\{d\}\right\}$ of set $S=\{a,b,c,d\}$, the relation (ordered pairs) induced by this partition 
+is: $\mathcal{R}=\left\{(a,a),(a,b),(b,a),(b,b),(c,c),(d,d)\right\}$, this relation is reflexive, transitive and symmetric, so it is an equivalence relation.
+
+Now, let's prove \ref{theorem_equvalence}
