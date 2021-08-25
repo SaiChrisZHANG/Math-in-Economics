@@ -107,3 +107,20 @@ Inversible is a universal property for all relations. Meanwhile, other propertie
         \item[-] both \textbf{antisymmetric} and bounded, it is a \textbf{\textit{Lattice}} 
     \end{enumerate} 
 \end{enumerate}
+
+A clearer representation of the relationships between the different relations is shown in Figure .
+
+Next, we study some special properties of the relations listed above.
+
+\subsubsection*{Equivalence relation}
+The most important property of equivalence ralations is related to the partitions of sets (see Def. \ref{def_collect_subset}):
+\begin{theorem}
+    If $R$ is an equivalence relation on any non-empty set $A$, then the distinct set of equivalence classes of $R$ forms a partition of $A$.
+    Conversely, if a relation induced by partition $\mathcal{P}=\{A_i\}$ is defined as:
+    $$
+    \forall x,y\in A, x\mathcal{R}^{\mathcal{P}}y \Leftrightarrow \exists A_i \in \mathcal{P}(x,y\in A_i)
+    $$
+    this relation $\mathcal{R}^{\mathcal{P}}$ is an equivalence relation.
+\end{theorem}
+
+What does this mean? Here is an example:
