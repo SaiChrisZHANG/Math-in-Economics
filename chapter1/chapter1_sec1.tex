@@ -134,7 +134,7 @@ Now, let's prove Theorem \ref{theorem_equvalence} formally:
     To prove the $R$ is an equivalence relation, the three properties need to be satisfied.
     \begin{enumerate}
         \item[Reflexive:] Let $x\in A$, since $\bigcup P_i=A$, $x$ must belong to at least one set in $\{P_i\}$. Thus, $\exists i$ s.t. $x\in A_i \wedge x\in A_i$, by the definition of partition induced relations, $x\mathcal{R}x$. Hence, $\mathcal{R}$ is reflexive.
-        \item[Symmetric:]
+        \item[Symmetric:] Suppose $x\mathcal{R}y$, then by the definition of partition induced relations, $\exists i$ s.t. $x\in A_i \wedge y\in A_i$, thus $y \in A_i \wedge x\in A_i\Rightarrow y\mathcal{R}x$
         \item[Transitive:]   
     \end{enumerate}
 \end{enumerate}
