@@ -135,6 +135,6 @@ Now, let's prove Theorem \ref{theorem_equvalence} formally:
     \begin{enumerate}
         \item[Reflexive:] Let $x\in A$, since $\bigcup P_i=A$, $x$ must belong to at least one set in $\{P_i\}$. Thus, $\exists i$ s.t. $x\in A_i \wedge x\in A_i$, by the definition of partition induced relations, $x\mathcal{R}x$. Hence, $\mathcal{R}$ is reflexive.
         \item[Symmetric:] Suppose $x\mathcal{R}y$, then by the definition of partition induced relations, $\exists i$ s.t. $x\in A_i \wedge y\in A_i$, thus $y \in A_i \wedge x\in A_i\Rightarrow y\mathcal{R}x$
-        \item[Transitive:]   
+        \item[Transitive:] If $x\mathcal{R}y\wedge y\mathcal{R}z$, by the definition of partition induced realtions, $\exists i,j$ s.t. $x\in A_i \wedge y\in A_i$ and $y\in A_j \wedge z \in A_j$. Notice that $A_i$ and $A_j$ are in a partition, therefore $A_i\cap A_j=\varnothing$ or $A_i=A_j$. Because $y_i$ is in both sets, $A_i=A_j$. Hence, $x\in A_i \wedge z\in A_i(A_j)\Rightarrow x\mathcal{R}z$. 
     \end{enumerate}
 \end{enumerate}
